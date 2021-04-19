@@ -2,6 +2,9 @@ Windows:
 * python3 -m venv myvenv
 * myvenv\Scripts\activate
 * python -m pip install -r requirements.txt
+* place chromedriver.exe at the root directory (download: https://chromedriver.chromium.org/downloads)
+* rename `local_settings_example.py` to `local_settings.py` and enter all the credentials
+* python3 interface.py
 
 Windows cmd:
 * chrome.exe --remote-debugging-port=1111 --user-data-dir="C:\selenum\AutomationProfile"
