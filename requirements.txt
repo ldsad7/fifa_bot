@@ -1,0 +1,6 @@
+selenium==3.141.0
+requests==2.24.0
+pysimplegui==4.24.0
+PyInstaller==3.6
+yarl==1.4.2
+fake-useragent==0.1.11
