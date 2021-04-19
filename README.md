@@ -15,9 +15,7 @@ local development:
 prod development:
 * chrome_options.add_experimental_option('useAutomationExtension', False)  # NB: uncommment when you publish it
 * chrome_options.add_experimental_option("excludeSwitches", ['enable-automation'])  # NB: uncommment when you publish it
-* chrome_options.add_experimental_option("prefs", {
-*     "profile.default_content_setting_values.notifications": 2,
-* })  # NB: uncommment when you publish it
+* chrome_options.add_experimental_option("prefs", {"profile.default_content_setting_values.notifications": 2})  # NB: uncommment when you publish it
 
 In order to publish app:
 * pyinstaller interface.py --onefile
